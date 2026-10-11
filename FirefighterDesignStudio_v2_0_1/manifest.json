@@ -1,0 +1,253 @@
+{
+  "version": "2.0.1",
+  "build": "2026-10-11 Simulink initialization fix",
+  "entryPoint": "LAUNCH_STUDIO.m",
+  "matlabSourceFiles": 35,
+  "files": [
+    {
+      "path": "+ffstudio/analyze.m",
+      "bytes": 2304,
+      "sha256": "a4a8643d1ae7fe5e185ea27b92d749056aa7b01e2eacd18531eebfd8cefd2224"
+    },
+    {
+      "path": "+ffstudio/atmosphere.m",
+      "bytes": 629,
+      "sha256": "c836418bee2bd27b15d1deb4d768642f6474449e202fc3def9abe85396200478"
+    },
+    {
+      "path": "+ffstudio/buildSimulink.m",
+      "bytes": 5417,
+      "sha256": "fdeb77cfa873f8d0b3d4b7261acbf481ee14be5f3a2998506dc188300e5a4980"
+    },
+    {
+      "path": "+ffstudio/cgLedger.m",
+      "bytes": 606,
+      "sha256": "91e6a8a2fd5815d783d856c5f6c0fca68ec528dcb4f8f8459e2b5c75f1163833"
+    },
+    {
+      "path": "+ffstudio/constraints.m",
+      "bytes": 1154,
+      "sha256": "da285440022d4c46f2de2e37c887f94ad1e9970249d49c02f9decc59c5c1e49b"
+    },
+    {
+      "path": "+ffstudio/dashboard.m",
+      "bytes": 14808,
+      "sha256": "a4821a97df9921304ae84c92c59b4624e9bcc61c9737553e698b1816f26d0121"
+    },
+    {
+      "path": "+ffstudio/defaultConfig.m",
+      "bytes": 2494,
+      "sha256": "fa5e691c3d2d94384b1ad89c9c7412a377a761191540620a0ddb4593b687d085"
+    },
+    {
+      "path": "+ffstudio/dropFootprint.m",
+      "bytes": 1358,
+      "sha256": "efddd0a6b125d3f22b989006f122ac78d4ba86639c1a810640fe57c7bb04eb71"
+    },
+    {
+      "path": "+ffstudio/exportPlots.m",
+      "bytes": 2412,
+      "sha256": "eb7e7b2aecaa454b487a4ba76302d7964aa72c2394631dedd3a4e08c9bcc070c"
+    },
+    {
+      "path": "+ffstudio/exportReport.m",
+      "bytes": 4600,
+      "sha256": "cd08a30150f7b11949bbd64ca64b60be712ddf93c20e9f0f738d7e480c8f3ff9"
+    },
+    {
+      "path": "+ffstudio/fitTrends.m",
+      "bytes": 1207,
+      "sha256": "102255719b561bac2cfff54854f72e8771dd3d3992efc971a65a53edc88515af"
+    },
+    {
+      "path": "+ffstudio/forces.m",
+      "bytes": 2798,
+      "sha256": "94db4e2d6943ccbfcf6df93978a506122cdeabfb85cb52658989d218c9810295"
+    },
+    {
+      "path": "+ffstudio/geometry.m",
+      "bytes": 808,
+      "sha256": "4c18c0cd81afbbe5b4931cd0a207606abafffd77abeeeb49b6d080d6221ce78c"
+    },
+    {
+      "path": "+ffstudio/loadDatabase.m",
+      "bytes": 887,
+      "sha256": "ce8cb49f1a9b8515d943b8a04559028f872194f4c2272c7f1730e2785c4e8566"
+    },
+    {
+      "path": "+ffstudio/loadedRange.m",
+      "bytes": 1258,
+      "sha256": "13a4741e1036f346d5d58e29bef3b563eef072c333d81ff7a4f8b65ddf46e415"
+    },
+    {
+      "path": "+ffstudio/mission.m",
+      "bytes": 3180,
+      "sha256": "9d3a4f558bcf80e9f63daf4b7258e4327c8f3f93bad84871379e0161c28fc9ca"
+    },
+    {
+      "path": "+ffstudio/performance.m",
+      "bytes": 3164,
+      "sha256": "7ce4d87f9648ff1cc656d2a36ff1779ee2b15611f57f4177db00df04107c6b9c"
+    },
+    {
+      "path": "+ffstudio/polar.m",
+      "bytes": 249,
+      "sha256": "c89d6760996fdf7f668865b80612daa31c8a0847a2a0adaa4242a72f2131cfd9"
+    },
+    {
+      "path": "+ffstudio/prepareDynamics.m",
+      "bytes": 1980,
+      "sha256": "f8fcbe06e3c1f88cfaa371daac13df8b3022d6dcf2e9835a21ba93ed8b20375f"
+    },
+    {
+      "path": "+ffstudio/releaseInfo.m",
+      "bytes": 150,
+      "sha256": "3b4519403f123b5bc6eaa174cfb7c3501b6c7ec755e298f4bbbe5e0c3d141712"
+    },
+    {
+      "path": "+ffstudio/sensitivity.m",
+      "bytes": 722,
+      "sha256": "c2e7ee4ecf76482beb5687ae15ea774dd1f7e656729df8d32a6c8775f17f5329"
+    },
+    {
+      "path": "+ffstudio/simulate6dof.m",
+      "bytes": 2804,
+      "sha256": "5574911f117247dd2694dfdec35f45229e6e9b8f70ca71ff4839d2c184ba0b5c"
+    },
+    {
+      "path": "+ffstudio/sizeAircraft.m",
+      "bytes": 1357,
+      "sha256": "1ca695680c010fffe463d447bb8220644860210559b84c100578523c0ff25c4d"
+    },
+    {
+      "path": "+ffstudio/uncertainty.m",
+      "bytes": 1143,
+      "sha256": "4dcc8896c53c51f3cd5c4d13a8acbb6d925bbd66f1619a544149a0ab8d217d87"
+    },
+    {
+      "path": "+ffstudio/validateConfig.m",
+      "bytes": 4270,
+      "sha256": "6899f9ea461b0eec92fe343ed34f4c178076fc0d3fbb11b1092e07ef7ee95683"
+    },
+    {
+      "path": "+ffstudio/writeText.m",
+      "bytes": 198,
+      "sha256": "f3ed2f1f2117d6dc0a4f88fa335c4d0e4105f16dc5d78d88dd58bc68416b26ed"
+    },
+    {
+      "path": "analyze_firefighter.m",
+      "bytes": 649,
+      "sha256": "41bb81171d4e1061aa8e38f93a3c4a10d9947cb7f68ec2f8529d745677ef99a6"
+    },
+    {
+      "path": "check_firefighter_studio.m",
+      "bytes": 2806,
+      "sha256": "7f1e0bcacfb567e945dd73a74161d90cb6568f1d8fa13f054ff8ad46e0d891e7"
+    },
+    {
+      "path": "data/aircraft_database.csv",
+      "bytes": 2184,
+      "sha256": "72fb392e8cf2132cf459dc653e83e9ec8ef5a48869e339617290c49ea374ae23"
+    },
+    {
+      "path": "data/default_inputs.json",
+      "bytes": 2542,
+      "sha256": "f1b6796615f3d99b305c1368b3d9d0c3a72dc05db9f1723883ae66128733600d"
+    },
+    {
+      "path": "docs/ASSUMPTIONS.md",
+      "bytes": 7450,
+      "sha256": "15b1fcb08b80e80dba7a514fdc0c76fc3ab4324015bb0cbac502337ea6af5d6a"
+    },
+    {
+      "path": "examples/compare_designs.m",
+      "bytes": 697,
+      "sha256": "049323d453be5cf07d77f42f1d0a599831a9045293c39097bab3500e947c3b0a"
+    },
+    {
+      "path": "examples/flight_experiments.m",
+      "bytes": 1060,
+      "sha256": "1e3ce2065a31b5b33342d5e04b3befdff8eecb2386dc0e73cdf59d3ab87af08b"
+    },
+    {
+      "path": "ffstudio_forces_sfun.m",
+      "bytes": 923,
+      "sha256": "447acf43d3645a6cbfb3bb4522052c3d5b46011ffc754f6bf59158a8119b438c"
+    },
+    {
+      "path": "LAUNCH_STUDIO.m",
+      "bytes": 185,
+      "sha256": "4c7c1bd187272ca31767b1b471705bb5ad9291f45b162636c9bbd5d03ec968bd"
+    },
+    {
+      "path": "models/README.md",
+      "bytes": 758,
+      "sha256": "bd34105054d20a36ed05d22e4780051e3f33a1f962dd635f9f49295580494a46"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6187,
+      "sha256": "1c7aa57a073769fcff589ff6e0c50a6de6773506651f3149ba6fff64f5a86be4"
+    },
+    {
+      "path": "start_firefighter_studio.m",
+      "bytes": 700,
+      "sha256": "30d30a24d87d5e56f24667994e2b45928fab6892e9f334a7a139bd82dfe8224d"
+    },
+    {
+      "path": "tests/test_engineering.m",
+      "bytes": 3393,
+      "sha256": "c42a06696305931e1e80cb3bf7bf49b8a72b11986773a43b5980984a633dbfee"
+    },
+    {
+      "path": "tests/test_inputs.m",
+      "bytes": 1697,
+      "sha256": "26fbce82d78b1508247d279e30e758b7df8294408ba96663c41a1749cbb74e86"
+    },
+    {
+      "path": "verification/baseline_comparison.csv",
+      "bytes": 350,
+      "sha256": "5b3914bbcd1248544fb1749fbb8c0a501d6e6cc57f0fd1275124a5a139bf64aa"
+    },
+    {
+      "path": "verification/baseline_reference.html",
+      "bytes": 3715,
+      "sha256": "68e23c00cecb5c2d7068ea947165ee7e6b6e61550610ed183546a337c6ce6398"
+    },
+    {
+      "path": "verification/baseline_reference.png",
+      "bytes": 111682,
+      "sha256": "315bcfb58e4965fd846f5f7be7a77ac0b71c3bcabf23f719221c6872c5bdb1d5"
+    },
+    {
+      "path": "verification/code_analysis.txt",
+      "bytes": 4326,
+      "sha256": "bd5575f8f443ea3f4e9460a85af28fe38bd10c86926152a872c24416126fd8c7"
+    },
+    {
+      "path": "verification/independent_numerical_reference.json",
+      "bytes": 2996,
+      "sha256": "7948c347cac37c7141aae5a0d46b191da20711d62f40a0399c064244469119f4"
+    },
+    {
+      "path": "verification/matlab_startup.log",
+      "bytes": 162,
+      "sha256": "61a21527fa6784f087359f11ceeb6c3cc0dfaa0efa6588cfc42a71f922d9e08a"
+    },
+    {
+      "path": "verification/SIMULINK_FIX.md",
+      "bytes": 1491,
+      "sha256": "c50b0f9411b9f7d0cf0da216b911d46bc5621bdc499b1d4fa3018583f70e05dd"
+    },
+    {
+      "path": "verification/source_audit.json",
+      "bytes": 1151,
+      "sha256": "2813f938b2bd31cf8b4b96fa9364c90eb655a784aaa2b66392b5ee3f17e78e4f"
+    },
+    {
+      "path": "verification/VALIDATION.md",
+      "bytes": 4010,
+      "sha256": "fb7c3b15e61c50042508399036d686968afd6a78af6afe31e59d1449192c1891"
+    }
+  ]
+}

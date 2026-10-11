@@ -1,0 +1,103 @@
+{
+  "validation": "Independent Python numerical checks passed; MATLAB runtime blocked by MathWorks service error 5201.",
+  "polar": {
+    "LDmax": 15.905973720586866,
+    "CD0": 0.028559933214452663,
+    "k": 0.03459890067215116,
+    "CLbest": 0.9085470943416001
+  },
+  "reportRecomputed": {
+    "mtow_kg": 21965.28469440731,
+    "empty_kg": 12289.652938825693,
+    "fuel_kg": 3475.6317555816117,
+    "wingArea_m2": 61.565555100610204,
+    "span_m": 26.608342369584342,
+    "power_kW": 5052.015479713681,
+    "cruiseLD": 11.104122592894837,
+    "cruiseRequired_kW": 3733.9204967513183,
+    "cruiseAvailable_kW": 3404.695729054523,
+    "stations_kg": [
+      21965.28469440731,
+      21306.32615357509,
+      20986.731261271463,
+      20063.83782945024,
+      19963.518640302987,
+      19883.063713840438,
+      13883.063713840438,
+      13674.817758132831,
+      13073.466393157645,
+      13008.099061191857,
+      12750.137499279546,
+      12686.386811783148
+    ],
+    "bestLDspeed_kmh": 369.9410886345127,
+    "loadedRange_km": 1339.2525026311753
+  },
+  "speedDependent": {
+    "mtow_kg": 25896.9701589045,
+    "empty_kg": 14265.255040398044,
+    "fuel_kg": 5431.715118506452,
+    "wingArea_m2": 72.58550778824376,
+    "span_m": 28.891752102716154,
+    "power_kW": 5956.303136548036,
+    "cruiseLD": 11.10412259289484,
+    "cruiseRequired_kW": 4402.275182197448,
+    "cruiseAvailable_kW": 4014.1206873555493,
+    "stations_kg": [
+      25896.9701589045,
+      25120.061054137364,
+      24743.260138325302,
+      23163.517768856243,
+      23047.70018001196,
+      22931.799032841842,
+      16931.799032841842,
+      16677.822047349215,
+      15216.17232082963,
+      15140.091459225481,
+      14846.94533984291,
+      14772.710613143696
+    ],
+    "bestLDspeed_kmh": 369.94108863451265
+  },
+  "dropStall_kmh": 167.7885130776762,
+  "dropMargin": 1.31117438234972,
+  "refits": {
+    "Cruise_kmh": {
+      "n": 9,
+      "slope": 4.1549894857579694,
+      "intercept": -7739.373637927712,
+      "R2": 0.5104838599345309,
+      "prediction2036": 720.1849550755151
+    },
+    "Range_km": {
+      "n": 7,
+      "slope": 7.136208138278388,
+      "intercept": -12738.938422757716,
+      "R2": 0.0640614852134973,
+      "prediction2036": 1790.3813467770815
+    },
+    "PayloadFraction": {
+      "n": 11,
+      "slope": 0.0012805664994073008,
+      "intercept": -2.2612657908653286,
+      "R2": 0.18424886341738833,
+      "prediction2036": 0.34596760192793585
+    },
+    "EmptyLaw": {
+      "n": 12,
+      "A": 1.4419079889849893,
+      "C": -0.09468819630989486
+    }
+  },
+  "checks": [
+    "Payload jump exactly 6000 kg",
+    "Mass closure",
+    "Fuel reserve ledger",
+    "Affine mission identity",
+    "Physics fuel closed form agrees with independent RK4",
+    "Database masks/counts",
+    "Cruise power shortfall",
+    "Polar maximum identity",
+    "Fully loaded range with retained reserve"
+  ]
+}

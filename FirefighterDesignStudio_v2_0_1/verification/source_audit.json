@@ -1,0 +1,32 @@
+{
+  "type": "Static source audit and independent numerical trim; not MATLAB execution",
+  "matlabFiles": 35,
+  "regressionTestsDefined": 12,
+  "packageReferencesResolved": 26,
+  "genericAttributeValidatorCalls": 0,
+  "oldPackageReferences": 0,
+  "defaultInputsMatchReference": true,
+  "initialTrim": {
+    "alpha_deg": 2.7395513855027147,
+    "elevator_deg": -1.9924010076383376,
+    "CL": 1.3829855159423892,
+    "throttle": 0.32948509649227264,
+    "forceBalanceResidual_N": 2.9103830456733704e-11
+  },
+  "checks": [
+    "All package calls resolve to delivered sources",
+    "12 named regression tests discoverable",
+    "Logical switches checked separately from numeric inputs",
+    "Text-only input columns and vector normalization",
+    "Dashboard result fields reviewed",
+    "Default numerical inputs match independent reference",
+    "Independent drop-level trim balances forces"
+  ],
+  "version": "2.0.1",
+  "simulinkInitialization": {
+    "restrictiveFileTypeCheckRemoved": true,
+    "realLibraryLoadsBeforeModelCreation": true,
+    "originalExceptionsPreserved": true,
+    "runtimeBuild": "not verified"
+  }
+}

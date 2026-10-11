@@ -1,0 +1,20 @@
+ID,Aircraft,Year,Class,Power_kW,Payload_kg,MTOW_kg,Empty_kg,WingArea_m2,Span_m,Cruise_kmh,Range_km,Source
+1,P-2V-7 Neptune,1954,Land twin,5520,7881,36240,22650,92.9,31.65,343,NaN,NIFC 2012 fact sheet
+2,Conair Firecat piston,1952,Land twin,2274,3296,11800,NaN,45.1,21.23,NaN,NaN,Wikipedia Conair Firecat
+3,C-130H MAFFS II,1954,Four engine,13448,11356,70305,34400,162.1,40.41,540,NaN,Wikipedia MAFFS and C-130
+4,L-188 Electra tanker,1957,Four engine,11184,11356,51256,26036,120.8,30.18,611,NaN,flugzeuginfo and Air Spray
+5,P-3 Orion tanker,1959,Four engine,14644,11356,61235,27890,120.8,30.37,607,NaN,Wikipedia P-3
+6,Convair CV-580 tanker,1960,Land twin,5592,7950,26379,14288,85.5,32.10,490,1750,SAU Victoria CV-580 fact sheet
+7,Canadair CL-215,1967,Amphibian,3132,5455,19731,12160,100.3,28.60,291,NaN,flugzeuginfo and GlobalSecurity
+8,Antonov An-26P,1969,Land twin,4148,4000,24000,15020,75.0,29.20,430,860,AerialFire Mag and FAS
+9,Aeritalia G.222 fire module,1970,Land twin,5000,6000,28000,14590,82.0,28.70,439,1371,Flight International and Wikipedia corrected in report
+10,Antonov An-32P Firekiller,1976,Land twin,7620,8000,27000,16800,75.0,29.20,470,NaN,AerialFire Mag and airforce-technology
+11,Grumman S-2T CAL FIRE,1987,Land twin,2460,4542,13222,NaN,46.4,22.25,426,805,CAL FIRE S-2T fact sheet
+12,Conair Turbo Firecat,1988,Land twin,2124,3395,12473,6803,46.4,22.13,NaN,NaN,Wikipedia Conair Firecat
+13,Canadair CL-215T,1989,Amphibian,3550,5455,19731,NaN,100.3,28.60,NaN,NaN,Military Wiki CL-215
+14,Air Tractor AT-802F,1990,Single engine,1007,3104,7257,3197,37.3,18.04,356,NaN,Air Tractor AT-802F specification
+15,Avro RJ85 tanker,1992,Jet,NaN,11356,43998,NaN,77.3,26.34,704,NaN,Aero-Flite and Conair RJ85
+16,Canadair CL-415,1993,Amphibian,3550,6137,19890,12880,100.3,28.60,333,NaN,DHC-515 sheet and GlobalSecurity as attributed in report
+17,Airbus C295W fire kit,1997,Land twin,3944,7000,23200,11000,59.1,25.81,480,1333,Airbus C295 data poster and FAS full load
+18,Dash 8-Q400AT,1998,Land twin,7566,10000,30935,17108,63.1,28.42,685,2000,Conair Q400AT and De Havilland
+19,Leonardo C-27J MAFFS II,1999,Land twin,6916,8000,30500,17000,82.0,28.70,583,1759,Leonardo and Wikipedia C-27J
